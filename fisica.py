@@ -14,7 +14,6 @@ texto_2 = Label(root,
                 bg="purple",
                 fg="white").grid(row=2, column=1)
 
-
 def envia_boton_1():
     ventana_UDL = Toplevel()
     ventana_UDL.title("Unidad de longitud")
@@ -1241,7 +1240,6 @@ def envia_boton_3():
             entrada_UDT.delete(0, END)
             entrada_UDT.insert(0, "ERROR!!!")
 
-    
     def resultado_s():
         ventana_resultado = Toplevel()
         ventana_resultado.title("Resultado")
@@ -1285,8 +1283,6 @@ def envia_boton_3():
             entrada_UDT.delete(0, END)
             entrada_UDT.insert(0, "ERROR!!!")
 
-
-
     boton_h = Button(ventana_UDT, 
                        text="HORA",
                        borderwidth=3,
@@ -1311,8 +1307,6 @@ def envia_boton_3():
                         command=resultado_s,
                         bg="light gray",
                         fg="black").grid(row=4, column=2)
-
-
 
 boton_1 = Button(root, 
                  text="Unidad de longitud", 
